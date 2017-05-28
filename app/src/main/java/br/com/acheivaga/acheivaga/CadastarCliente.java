@@ -9,7 +9,7 @@ public class CadastarCliente {
     private String NomeEstacionamento;
     private String CNPJ;
     private String Telefone;
-    private String Rua;
+    private String Endereco;
     private String Número;
     private String QtdVagas;
     private String Bairro;
