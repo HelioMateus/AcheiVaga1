@@ -15,5 +15,5 @@ public abstract class GenericDAO <T>{
 
     public abstract boolean salvar(T t);
     public abstract List<T> listar();
-
+    public abstract boolean deletar(int id);
 }
