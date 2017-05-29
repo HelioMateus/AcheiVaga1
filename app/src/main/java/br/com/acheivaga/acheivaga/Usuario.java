@@ -4,7 +4,7 @@ package br.com.acheivaga.acheivaga;
  * Created by Wanderson on 28/05/2017.
  */
 
-public class CadastarCliente {
+public class Usuario {
     private String NomeProprietario;
     private String NomeEstacionamento;
     private String CNPJ;
@@ -89,11 +89,11 @@ public class CadastarCliente {
         Cidade = cidade;
     }
 
-    public String getUsuario() {
+    public String getEmail() {
         return Email;
     }
 
-    public void setUsuario(String Email) {
+    public void setEmail(String Email) {
         Email = Email;
     }
 
