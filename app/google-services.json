@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322197346579",
+    "firebase_url": "https://projeto-integrador-ii.firebaseio.com",
+    "project_id": "projeto-integrador-ii",
+    "storage_bucket": "projeto-integrador-ii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322197346579:android:63034ee0375ef2db",
+        "android_client_info": {
+          "package_name": "br.com.acheivaga.acheivaga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322197346579-gi975a9vilqpeloua70nmtrtrlbsokr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.acheivaga.acheivaga",
+            "certificate_hash": "98b498f979cfa122bb03d7f911544c4aff6162bf"
+          }
+        },
+        {
+          "client_id": "322197346579-rl6v2moginv9no9ibodqei0sf3fguu13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkvIz75_NarKr-D1TlByd--akbaxeprdE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322197346579-rl6v2moginv9no9ibodqei0sf3fguu13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

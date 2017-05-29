@@ -14,7 +14,7 @@ public class CadastarCliente {
     private String QtdVagas;
     private String Bairro;
     private String Cidade;
-    private String Usuario;
+    private String Email;
     private String senha;
 
     public String getNomeProprietario() {
@@ -90,11 +90,11 @@ public class CadastarCliente {
     }
 
     public String getUsuario() {
-        return Usuario;
+        return Email;
     }
 
-    public void setUsuario(String usuario) {
-        Usuario = usuario;
+    public void setUsuario(String Email) {
+        Email = Email;
     }
 
     public String getSenha() {

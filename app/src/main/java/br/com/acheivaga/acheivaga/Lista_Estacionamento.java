@@ -10,18 +10,7 @@ import android.widget.AdapterView;
  * Created by ruben on 19/05/2017.
  */
 
-public class Lista_Estacionamento extends Activity implements AdapterView.OnItemClickListener {
-
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.lista_estacionamentos);
-    }
+public class Lista_Estacionamento extends Activity {
 
 
-	//teste de commit
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-    }
 }
