@@ -89,19 +89,11 @@ public class Usuario {
         Cidade = cidade;
     }
 
-    public String getEmail() {
-        return Email;
-    }
+    public String getSenha() {return senha;}
 
-    public void setEmail(String Email) {
-        Email = Email;
-    }
+    public void setSenha(String senha) {this.senha = senha;}
 
-    public String getSenha() {
-        return senha;
-    }
+    public String getEmail() {return Email;}
 
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
+    public void setEmail(String email) {Email = email;}
 }
