@@ -16,6 +16,7 @@ public class Usuario {
     private String Cidade;
     private String Email;
     private String senha;
+    private String teste;
 
     public String getNomeProprietario() {
         return NomeProprietario;
