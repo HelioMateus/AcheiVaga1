@@ -44,7 +44,7 @@
 
         <EditText
             android:id="@+id/edtCNPJ"
-            android:layout_width="151dp"
+            android:layout_width="136dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -54,7 +54,7 @@
 
         <EditText
             android:id="@+id/edtTelefone"
-            android:layout_width="120dp"
+            android:layout_width="130dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
@@ -70,17 +70,7 @@
 
         <EditText
             android:id="@+id/edtEndereco"
-            android:layout_width="238dp"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="No.*:" />
-
-        <EditText
-            android:id="@+id/edtNumero"
-            android:layout_width="42dp"
+            android:layout_width="308dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
@@ -92,12 +82,27 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="No.*:" />
+
+        <EditText
+            android:id="@+id/edtNumero"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Bairro*:" />
 
         <EditText
             android:id="@+id/edtBairro"
-            android:layout_width="145dp"
+            android:layout_width="215dp"
             android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,7 +111,7 @@
 
         <EditText
             android:id="@+id/edtCidade"
-            android:layout_width="137dp"
+            android:layout_width="324dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
@@ -122,7 +127,7 @@
 
         <EditText
             android:id="@+id/edtQtdVagas"
-            android:layout_width="72dp"
+            android:layout_width="48dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -132,14 +137,10 @@
 
         <EditText
             android:id="@+id/edtservicos"
-            android:layout_width="106dp"
+            android:layout_width="126dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -148,7 +149,7 @@
 
         <EditText
             android:id="@+id/edtEmail"
-            android:layout_width="180dp"
+            android:layout_width="374dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -158,9 +159,8 @@
 
         <EditText
             android:id="@+id/edtSenha"
-            android:layout_width="97dp"
+            android:layout_width="373dp"
             android:layout_height="wrap_content" />
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
