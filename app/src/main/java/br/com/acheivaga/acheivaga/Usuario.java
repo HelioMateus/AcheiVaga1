@@ -96,4 +96,9 @@ public class Usuario {
     public String getEmail() {return Email;}
 
     public void setEmail(String email) {Email = email;}
+
+    @Override
+    public String toString() {
+        return getNomeProprietario();
+    }
 }

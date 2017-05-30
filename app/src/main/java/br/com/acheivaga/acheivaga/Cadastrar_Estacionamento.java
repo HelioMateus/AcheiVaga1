@@ -1,5 +1,6 @@
 package br.com.acheivaga.acheivaga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -7,8 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 /**
  * Created by Wanderson on 29/05/2017.
@@ -28,6 +32,7 @@ public class Cadastrar_Estacionamento extends AppCompatActivity {
     private EditText tvCidade;
     private EditText tvUsuario;
     private EditText tvSenha;
+    private Button btnLista;
     private DatabaseReference databaseReference = FirebaseDatabase.
             getInstance().getReference();
     private DatabaseReference clientesReference = databaseReference.
@@ -54,6 +59,15 @@ public class Cadastrar_Estacionamento extends AppCompatActivity {
 
 
         final Button btnSalvar = (Button) findViewById(R.id.btnSalvar);
+        final Button btnLista = (Button)findViewById(R.id.btnLista);
+
+        btnLista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Cadastrar_Estacionamento. this,Lista_Estacionamento.class);
+                startActivity(intent);
+            }
+        });
 
         btnSalvar.setOnClickListener(new View.OnClickListener() {
 
@@ -92,6 +106,19 @@ public class Cadastrar_Estacionamento extends AppCompatActivity {
             }
 
 
+        });
+
+        clientesReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Toast.makeText(Cadastrar_Estacionamento.this,"Houve Alteração",Toast.LENGTH_LONG).show();
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
         });
     }
 

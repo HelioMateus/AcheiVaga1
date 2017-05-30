@@ -181,6 +181,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Salvar" />
+
+        <Button
+            android:id="@+id/btnLista"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Lista" />
+
+        }
+        });
+
     </LinearLayout>
     </LinearLayout>
 </ScrollView>
