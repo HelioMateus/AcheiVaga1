@@ -92,6 +92,7 @@ public class Cadastrar_Estacionamento extends AppCompatActivity {
                 tvNomeEstacionamento.setText("");
                 tvTelefone.setText("");
                 tvCNPJ.setText("");
+                tvServicos.setText("");
                 tvQdtVagas.setText("");
                 tvEndereco.setText("");
                 tvNumero.setText("");
